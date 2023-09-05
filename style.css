@@ -1,0 +1,85 @@
+
+body{
+position:relative;
+left:550px;
+top:100px;
+background-color: darkblue;
+}
+.wrapper{
+    display: flex;
+}
+.stick{
+    width:10px;
+    height: 450px;
+    background-color: white;
+
+    border-top-left-radius:10px; 
+    border-bottom-left-radius:5px; 
+    border-bottom-right-radius:5px; 
+}
+.top{
+    background-color: orangered;
+}
+.middle{
+    background-color: white;
+}
+.bottom{
+    background-color: green;
+}
+.top,
+.middle,.bottom{
+    width:350px;
+    height: 60px;
+}
+.wheel{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+outline: 1px solid darkblue;
+position:relative;
+left:150px
+}
+.line{
+    position: absolute;
+height: 100%;
+width:1px;
+background-color: darkblue;
+left:50%;
+
+}
+.line:nth-child(1){
+    transform: rotate(15deg)
+}
+.line:nth-child(2){
+    transform: rotate(30deg)
+}
+.line:nth-child(3){
+    transform: rotate(45deg)
+}
+.line:nth-child(4){
+    transform: rotate(60deg)
+}
+.line:nth-child(5){
+    transform: rotate(75deg)
+}
+.line:nth-child(6){
+    transform: rotate(90deg)
+}
+.line:nth-child(7){
+    transform: rotate(105deg)
+}
+.line:nth-child(8){
+    transform: rotate(120deg)
+}
+.line:nth-child(9){
+    transform: rotate(135deg)
+}
+.line:nth-child(10){
+    transform: rotate(150deg)
+}
+.line:nth-child(11){
+    transform: rotate(165deg)
+}
+.line:nth-child(12){
+    transform: rotate(180eg)
+}
